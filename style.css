@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #010326;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: "New Amsterdam",sans-serif;
+    font-size: 5rem;
+    margin: 3%;
+    color: #F2EEAC;
+}
+form{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-self: center;
+}
+input{
+    font-family: "Mulish", sans-serif;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    margin: 0.5%;
+    border:1px #9D647F solid;
+}
+button{
+    font-family: "Mulish", sans-serif;
+    font-size: 1.3rem;
+    margin-top: 5%;
+    border-radius: 10px;
+    border:1px #9D647F solid;
+    background-color: #F2EEAC;
+    color: #9D647F;
+}
+button:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+.formulario{
+    background-color: #F2C9DC;
+    width: 30%;
+    padding: 1.5%;
+    justify-content: center;
+    border-radius: 10px;
+}
+ul{
+    margin-top: 3%;
+    background-color: #F2EEAC;
+    width: 30%;
+    padding: 1.5%;
+    justify-content: center;
+    border-radius: 10px;
+}
+li{
+    font-family: "Mulish", sans-serif;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    margin: 0.5%;
+    border:1px #9D647F solid;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+li button{
+    margin-bottom: 5px;
+}
